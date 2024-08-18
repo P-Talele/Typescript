@@ -1,6 +1,13 @@
+
  // how to decelare variable and initilization
 let name:String="Prashant";
- console.log(name)
+let age:Number=25;
+let isMarried:Boolean=true;
+console.log("name",name);
+console.log("ahe",age);
+console.log("married",isMarried);
+  
+
 
 
 
