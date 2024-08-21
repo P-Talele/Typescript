@@ -5,3 +5,4 @@ var employee = {
 };
 var result = employee.Name;
 console.log(result);
+  

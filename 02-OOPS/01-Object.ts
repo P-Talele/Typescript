@@ -4,4 +4,8 @@ const employee: { _Id: number; Name: string; Gmail: string } = {
    Gmail: 'prashanttalele1997@gmail.com'
 }
 let result = employee.Name
-console.log(result)
+console.log(result)  
+  
+
+ 
+   
