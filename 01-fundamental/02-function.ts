@@ -1,5 +1,5 @@
 function isLogged (status: Boolean) {
-  if (status == true) {
+  if (status== true) {
     return 'User Logged'
   } else {
     return 'User Not Logged'
