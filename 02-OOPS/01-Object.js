@@ -5,4 +5,8 @@ var employee = {
 };
 var result = employee.Name;
 console.log(result);
-  
+function createUser(user) {
+    return { name: 'Ashish', gmail: 'Ashish@gmail.com', isActive: true };
+}
+var valueIs = createUser.name;
+console.log(valueIs);
