@@ -1,37 +1,17 @@
 "use strict";
-function isLogged(status) {
-    if (status == true) {
-        return 'User Logged';
-    }
-    else {
-        return 'User Not Logged';
-    }
+function addition(a, b) {
+    return a + b;
 }
-var user = isLogged(false);
-console.log(user);
-function addition(first, second) {
-    return first + second;
+console.log(addition(2, 3));
+function addTwo(a, b) {
+    return a + b;
 }
-var sum = addition(12, 23);
-console.log('Addition Of two Variable=' + sum);
-function goodMorning(name) {
-    var suffix = name ? ", ".concat(name, ".") : '.';
-    return 'Good Morning' + suffix;
+console.log(addTwo(7, 8)); // logs 15
+function addName(a, b) {
+    return `${a} ${b}`;
 }
-console.log(goodMorning('Sam'));
-var arrowFunction = function (name, location) {
-    console.log('Name=' + name + ',Location=' + location);
-};
-var result = arrowFunction('Prashant', 'Pune');
-console.log(result);
-var stars = ['Virat', 'Rohit', 'Salman'];
-var resultStars = stars.map(function (item) {
-    return "".concat(item, " is heros");
-});
-console.log(resultStars);
-function noReturnType(name) {
-    console.log(name);
+console.log(addName("prashant", "talele"));
+function passArrayValue(num) {
+    console.log(num);
 }
-var result2 = noReturnType("Prashant");
-console.log(result2);
 module.exports = {};
